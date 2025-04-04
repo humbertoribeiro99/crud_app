@@ -6,7 +6,7 @@ const pool = mysql.createPool({
   host: "localhost",
   user: "root",
   password: "", // ⚠️ Nunca deixe vazio em produção!
-  database: "crud_react",
+  database: "crud_app",
   waitForConnections: true,
   connectionLimit: 10,
 });
