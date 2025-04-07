@@ -9,29 +9,27 @@ Aplicação completa para gerenciamento de usuários com frontend em React e bac
   - 📋 Listar todos usuários
   - ✏️ Editar informações
   - 🗑️ Excluir registros
-- Design **responsivo** (mobile/desktop)
-- Validação de formulários
-- Notificações toast interativas
 
-## 🧩 Componentes Principais
+# 🚀 Como Rodar o Projeto CRUD de Usuários
 
-| Componente   | Descrição                                  |
-|--------------|-------------------------------------------|
-| `Form.jsx`   | Formulário de criação/edição              |
-| `Grid.jsx`   | Tabela de exibição com ações              |
-| `App.jsx`    | Componente principal                      |
+## 📋 Pré-requisitos
 
-## 🛠 Stack Tecnológica
+- Node.js (versão 16 ou superior)
+- MySQL instalado ou acesso a um servidor MySQL
+- Git (opcional)
 
-### Frontend
-```mermaid
-pie
-    title Frontend
-    "React" : 45
-    "Styled Components" : 25
-    "React Icons" : 15
-    "Axios" : 10
-    "React Toastify" : 5
+## 🔧 Configuração Inicial
+
+### 1. Clone o repositório
+```bash
+git clone https://github.com/seu-usuario/crud-usuarios.git
+````
+## ⚡ Comandos Cruciais
+
+| Componente   | Comando                                  | Descrição |
+|--------------|-------------------------------------------| ---------- |
+| Backend   | npm start              | Inicia servidor na porta 8800 |
+| Frontend   | npm run dev              | Roda React na porta 3000 ou 5173 |
 
 
 
